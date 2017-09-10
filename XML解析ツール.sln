@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML解析ツール", "XML解析ツール\XML解析ツール.csproj", "{B0A4A54D-B15B-4A30-A88A-D1A0C7C769A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLAnalysis", "XMLAnalysis\XMLAnalysis.csproj", "{7CD58483-DA99-4387-B07D-317556D73D72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A4A54D-B15B-4A30-A88A-D1A0C7C769A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A4A54D-B15B-4A30-A88A-D1A0C7C769A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A4A54D-B15B-4A30-A88A-D1A0C7C769A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A4A54D-B15B-4A30-A88A-D1A0C7C769A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD58483-DA99-4387-B07D-317556D73D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD58483-DA99-4387-B07D-317556D73D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD58483-DA99-4387-B07D-317556D73D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD58483-DA99-4387-B07D-317556D73D72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA434F2-31A4-4F07-9A3A-F272F82D44AA}
+	EndGlobalSection
+EndGlobal
