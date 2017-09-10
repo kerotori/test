@@ -1,15 +1,16 @@
 ﻿using System;
+using System.Xml;
 using System.Xml.Schema;
 
-namespace XML解析ツール
+namespace tool
 {
-    public class Program
+    public class XMLAnalysis
     {
-        public static void Main()
+        public static void Execute()
         {
             XmlSchema schema = null;
             XmlSchemaSet schemaSet = new XmlSchemaSet();
-            schemaSet.Add("urn:bookstore-schema", @"C:\Temp\schema1.xsd");
+            schemaSet.Add("urn:iso:std:iso:20022:tech:xsd:pain.001.001.03", @"pain.001.001.03.xsd");
 
             foreach (XmlSchema s in schemaSet.Schemas())
             {
@@ -18,7 +19,7 @@ namespace XML解析ツール
 
             XmlDocument xdoc = new XmlDocument();
             xdoc.Schemas.Add(schema);
-            xdoc.Load(@"C:\Temp\xml1.xml");
+            xdoc.Load(@"pain.001.001.03.xml");
             xdoc.Validate(ValidationCallBack);
         }
 
